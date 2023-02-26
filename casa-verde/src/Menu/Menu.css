@@ -25,6 +25,7 @@ header ul li{
     padding: 0.5rem 1rem;
 }
 .yellow-ab{
+    z-index: 0;
     position: absolute;
     top: 0;
     right: 0;

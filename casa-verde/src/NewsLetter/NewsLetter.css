@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');
+
+.News{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+div *{
+    z-index: 1;
+}
+
+.text{
+    margin: 4rem 0 0 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 36rem;
+    height: 28rem;
+}
+.first-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    color: #202020;
+    margin-bottom: 1rem;
+}
+.News h1{
+    font-family: 'Elsie Swash Caps';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5.125rem;
+    margin-bottom: 2rem;
+}
+
+.sub-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    width: 36rem;
+    color: #202020;
+    margin-bottom: 2rem;
+}
+.planta{
+    translate: -10rem -5rem;
+    width: 49rem;
+}
+
+.mail-box{
+    position: relative;
+}
+.mail-icon{
+    translate: 0px -50%;   
+    top:50%;
+    left: 1rem;
+    position: absolute;
+}
+
+.mail-input{
+    translate: 0px -1px;     
+    padding-left: 3rem;
+    text-align: left;
+    width: 24rem;
+    height: 3.5rem;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(255, 203, 71, 0.3);
+}
+
+button{
+    translate: 0px -1px; 
+    padding: 1rem; 
+    height: 3.5rem;
+    border: none;
+    background: #FFCB47;
+    box-shadow: 10px 10px 30px rgba(255, 203, 71, 0.3);
+    color:#FFFFFF;
+}
